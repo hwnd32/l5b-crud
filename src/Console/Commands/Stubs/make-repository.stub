@@ -21,6 +21,11 @@ class DummyRepository extends BaseRepository
         return DummyModel::class;
     }
 
+    public function __construct(DummyModel $model)
+    {
+        $this->model = $model;
+    }
+
     /**
      * @param int    $paged
      * @param string $orderBy
