@@ -36,7 +36,7 @@ return [
         ]
     ],
     'sidebar' => [
-        'title'  => 'Title',
+        'title'  => 'DummyModel',
     ],
 
     'tabs' => [
