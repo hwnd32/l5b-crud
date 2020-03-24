@@ -1,9 +1,14 @@
 {
-  "name": "pqrs/l5b-crud",
-  "description": "CRUD artisan command for rappasoft/laravel-5-boilerplate",
+  "name": "kondratyev/l5b-crud",
+  "description": "Fixed CRUD artisan command for rappasoft/laravel-5-boilerplate",
   "license": "MIT",
   "homepage": "https://github.com/pqrs/l5b-crud",
   "authors": [
+    {
+      "name": "Kondratyev V.",
+      "email": "hwnd32@yandex.ru",
+      "homepage": "https://github.com/hwnd32"
+    },
     {
       "name": "Alvaro Piqueras",
       "email": "alvaro@pqrs.es"
