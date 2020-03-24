@@ -65,7 +65,7 @@ class DummyRepository extends BaseRepository
     public function create(array $data) : DummyModel
     {
         return DB::transaction(function () use ($data) {
-            $DummyVariable = parent::create([
+            $DummyVariable = $this->model::create([
                 'DummyField' => $data['DummyField'],
             ]);
 
