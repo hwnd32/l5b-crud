@@ -59,7 +59,7 @@ class L5BPage extends Command
         // Create View "name/index.blade.php"
         // Create View "example/includes/breadcrumb-links.blade.php"
         // Create View "example/includes/sidebar-examples.blade.php"
-        $this->view( $name, 'index', 'make-views-index.stub' );
+        $this->view( $name, 'index', 'make-page-views-index.stub' );
         $this->view( $name, '/includes/breadcrumb-links', 'make-page-views-breadcrumb-links.stub' );
         $this->view( $name, '/includes/sidebar-'. str_plural($name), 'make-views-sidebar.stub' );
 
