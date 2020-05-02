@@ -19,6 +19,12 @@ It has been tested with Laravel 5.7.
 composer require pqrs/l5b-crud
 ```
 
+## Upd:
+```
+php artisan l5b:page example
+```
+Generates simple page for boilerplate
+
 ## Run
 
 In your Laravel project root folder:
