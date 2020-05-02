@@ -80,7 +80,7 @@ class L5BPage extends Command
             'label'                 => str_plural($key),
             'model'                 => ucfirst(camel_case($key)),
             'repository'            => ucfirst(camel_case($key)) . "Repository",
-            'repositoryVariable'    => $key . "Repository",
+            'repositoryVariable'    => lcfirst(camel_case($key)) . "Repository",
             'request'               => ucfirst(camel_case($key)) . "Request",
             'route'                 => str_plural($key),
             'variable'              => camel_case($key),

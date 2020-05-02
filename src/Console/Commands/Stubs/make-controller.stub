@@ -68,9 +68,7 @@ class DummyController extends Controller
      */
     public function store(StoreDummyRequest $request)
     {
-        $this->DummyRepoVariable->create($request->only(
-            'DummyField'
-        ));
+        $this->DummyRepoVariable->create($request->all());
 
         // Fire create event (DummyModelCreated)
         event(new DummyModelCreated($request));
@@ -117,9 +115,7 @@ class DummyController extends Controller
      */
     public function update(UpdateDummyRequest $request, DummyModel $DummyVariable)
     {
-        $this->DummyRepoVariable->update($DummyVariable, $request->only(
-            'DummyField'
-        ));
+        $this->DummyRepoVariable->update($DummyVariable, $request->all());
 
         // Fire update event (DummyModelUpdated)
         event(new DummyModelUpdated($request));
