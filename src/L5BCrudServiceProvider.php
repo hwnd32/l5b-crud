@@ -15,6 +15,7 @@ class L5BCrudServiceProvider extends ServiceProvider
     {
 		$this->commands('pqrs\L5BCrud\Console\Commands\L5BCrud');
 		$this->commands('pqrs\L5BCrud\Console\Commands\L5BStub');
+		$this->commands('pqrs\L5BCrud\Console\Commands\L5BPage');
     }
 
     /**
