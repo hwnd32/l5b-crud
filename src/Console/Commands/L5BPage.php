@@ -14,7 +14,7 @@ class L5BPage extends Command
     *
     * @var string
     */
-    protected $signature = 'l5b:page {name} {--m|migrate} {--f|field=title} {--force}';
+    protected $signature = 'l5b:page {name} {--m|migrate} {--f|field=name} {--force}';
 
     /**
     * The console command description.

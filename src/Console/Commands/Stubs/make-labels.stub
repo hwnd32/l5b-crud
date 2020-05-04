@@ -8,7 +8,7 @@
             'create'        => 'Create Example',
             'create_new'    => 'Create New Example',
             'table'         => [
-                'title'         => 'Title',
+                'name'         => 'Name',
                 'created'       => 'Created',
                 'last_updated'  => 'Last Updated',
                 'deleted'       => 'Deleted',
@@ -21,7 +21,7 @@
                 'title' => 'Overview',
                 'content' => [
                     'overview'  => [
-                        'title'         => 'Title',
+                        'name'         => 'Name',
                         'created_at'    => 'Created',
                         'last_updated'  => 'Last Updated',
                     ],
@@ -51,7 +51,7 @@
 'validation' => [
     'backend' => [
         'examples' => [
-            'title'            => 'Title',
+            'name'            => 'Name',
         ],
     ],
 

@@ -14,7 +14,7 @@ class L5BCrud extends Command
     *
     * @var string
     */
-    protected $signature = 'l5b:crud {name} {--m|migrate} {--f|field=title} {--frontend} {--force}';
+    protected $signature = 'l5b:crud {name} {--m|migrate} {--f|field=name} {--frontend} {--force}';
 
     /**
     * The console command description.
